@@ -1,0 +1,14 @@
+application:
+  minio:
+    bucket:
+      name: marketplace-test
+    port: 19100
+    secured: false
+    access:
+      name: accessKey
+      secret: secretKey
+    url: http://127.0.0.1
+    encryptionKey: aaa
+
+server:
+  port: 8086

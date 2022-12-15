@@ -1,0 +1,11 @@
+application:
+  name: migration-orchestrator
+  minio:
+    bucket:
+      name: ${BUCKET_NAME:marketplace-test}
+    port: ${AWS_BUCKET_PORT:19000}
+    secured: ${AWS_BUCKET_SECURED:false}
+    access:
+      name: ${AWS_ACCESS_KEY_ID:minio}
+      secret: ${AWS_SECRET_ACCESS_KEY:minio123}
+    url: ${AWS_BUCKET_URL:http://127.0.0.1}
