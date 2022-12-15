@@ -9,3 +9,12 @@ application:
       name: ${AWS_ACCESS_KEY_ID:minio}
       secret: ${AWS_SECRET_ACCESS_KEY:minio123}
     url: ${AWS_BUCKET_URL:http://127.0.0.1}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  endpoint:
+    health:
+      show-details: always
