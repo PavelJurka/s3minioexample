@@ -22,6 +22,6 @@ services:
     entrypoint: >
       /bin/sh -c "
       /usr/bin/mc alias set myminio http://minio:9000 minio minio123;
-      /usr/bin/mc mb myminio/marketplace-test;      
+      /usr/bin/mc mb myminio/bucket-test;      
       exit 0;
       "

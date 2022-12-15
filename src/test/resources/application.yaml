@@ -1,7 +1,7 @@
 application:
   minio:
     bucket:
-      name: marketplace-test
+      name: bucket-test
     port: 19100
     secured: false
     access:

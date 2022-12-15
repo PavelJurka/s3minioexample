@@ -18,7 +18,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension
 import org.springframework.web.reactive.function.client.WebClient
 import org.testcontainers.junit.jupiter.Testcontainers
 
-private const val bucketName = "marketplace-test"
+private const val bucketName = "bucket-test"
 
 @ExtendWith(SpringExtension::class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)

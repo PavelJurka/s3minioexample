@@ -1,8 +1,8 @@
 application:
-  name: migration-orchestrator
+  name: example s3 service
   minio:
     bucket:
-      name: ${BUCKET_NAME:marketplace-test}
+      name: ${BUCKET_NAME:bucket-test}
     port: ${AWS_BUCKET_PORT:19000}
     secured: ${AWS_BUCKET_SECURED:false}
     access:
